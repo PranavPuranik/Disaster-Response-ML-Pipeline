@@ -1,6 +1,6 @@
 # Disaster Response Pipeline Project
 
-![Frontend](screenshots/intro.png)
+![Frontend](/app/images/indexPage1.png)
 
 ## Table of Contents
 1. [Description](#description)
@@ -8,8 +8,7 @@
 	1. [Dependencies](#dependencies)
 	2. [Installing](#installing)
 	3. [Training](#training)
-    4. [Usage](#usage)
-	5. [Extras](#extras)
+	4. [Usage](#usage)
 3. [Authors](#authors)
 4. [License](#license)
 5. [Acknowledgement](#acknowledgement)
@@ -60,16 +59,7 @@ Run the following command in the app's directory to run your web app.
 
 And the open http://0.0.0.0:3001/
 
-<a name="extras"></a>
-### Extras
-
-In the **data** and **models** folder you can find two jupyter notebook that will help you understand how the model works step by step:
-1. **ETL Preparation Notebook**: learn everything about the implemented ETL pipeline
-2. **ML Pipeline Preparation Notebook**: look at the Machine Learning Pipeline developed with NLTK and Scikit-Learn
-
-You can use **ML Pipeline Preparation Notebook** to re-train the model or tune it through a dedicated Grid Search section.
-In this case, it is warmly recommended to use a Linux machine to run Grid Search, especially if you are going to try a large combination of parameters.
-Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several hours to complete. 
+ 
 
 <a name="authors"></a>
 ## Authors
@@ -89,14 +79,11 @@ Using a standard desktop/laptop (4 CPUs, RAM 8Gb or above) it may take several h
 <a name="screenshots"></a>
 ## Screenshots
 
-1. This is an example of a message you can type to test Machine Learning model performance
+1. A distribution of message types
 
-![Sample Input](screenshots/sample_input.png)
+![Sample Input](/app/images/Plot1.png)
 
-2. After clicking **Classify Message**, you can see the categories which the message belongs to highlighted in green
+2. A distribution of message categories
 
-![Sample Output](screenshots/sample_output.png)
+![Sample Input](/app/images/Plot2.png)
 
-3. The main page shows some graphs about training dataset, provided by Figure Eight
-
-![Main Page](screenshots/main_page.png)
